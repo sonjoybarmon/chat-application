@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add express dotenv mongoose multer cookie-parser express-validator bcrpt http-errors
+
+PATH: 
+  /home/sonjoy/.rvm/gems/ruby-3.0.0/bin:/home/sonjoy/.rvm/gems/ruby-3.0.0@global/bin:/home/sonjoy/.rvm/rubies/ruby-3.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sonjoy/.rvm/bin:/home/sonjoy/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bcrpt: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "chat-application",
+    "version": "1.0.0",
+    "description": "my first chat application",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sonjoybarmon/chat-application.git"
+    },
+    "author": "sonjoy barmon",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sonjoybarmon/chat-application/issues"
+    },
+    "homepage": "https://github.com/sonjoybarmon/chat-application#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
